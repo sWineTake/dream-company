@@ -1,0 +1,5 @@
+dependencies {
+    // 상위모듈의 버전관리를 따라가게됨
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'mysql:mysql-connector-java'
+}

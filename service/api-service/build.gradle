@@ -9,9 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation project(':service:api-service')
-
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter'
 
     compileOnly 'org.projectlombok:lombok:1.18.34'
     annotationProcessor 'org.projectlombok:lombok:1.18.34'

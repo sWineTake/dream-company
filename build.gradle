@@ -15,8 +15,7 @@ subprojects {
     }
 
     dependencies {
-        compileOnly 'org.projectlombok:lombok:1.18.30'
-        annotationProcessor 'org.projectlombok:lombok:1.18.30'
+        // 공통 라이브러리는 잘 사용안하는 방향으로 작업 -- 각각의 모듈에서 버전을 관리
     }
 
 }

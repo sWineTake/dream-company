@@ -1,3 +1,5 @@
 rootProject.name = 'dream'
 
 include 'web:api'
+include 'service:api-service'
+include 'infrastructure:my-sql'
