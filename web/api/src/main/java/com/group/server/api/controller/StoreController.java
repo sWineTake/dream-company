@@ -1,5 +1,6 @@
 package com.group.server.api.controller;
 
+import com.group.server.apiservice.response.StoreResponse;
 import com.group.server.apiservice.service.StoreService;
 import jakarta.websocket.server.PathParam;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +16,7 @@ public class StoreController {
     private final StoreService storeService;
 
     @GetMapping
-    public String getStoreName(@PathParam("id") Long id) {
+    public StoreResponse getStoreName(@PathParam("id") Long id) {
         return storeService.getStoreName(id);
     }
 
