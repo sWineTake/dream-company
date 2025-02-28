@@ -8,6 +8,7 @@ version = '0.0.1-SNAPSHOT'
 subprojects {
     apply plugin: 'java'
     apply plugin: 'idea'
+    group 'com.group.server'
     sourceCompatibility = JavaVersion.VERSION_21
 
     repositories {

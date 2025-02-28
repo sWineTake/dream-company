@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'io.spring.dependency-management' version '1.1.4'
 }
 
 repositories {
@@ -8,9 +7,6 @@ repositories {
 }
 
 dependencies {
-    implementation project(':infrastructure:my-sql')
-    implementation project(':domain:api-domain')
-
     implementation 'org.springframework.boot:spring-boot-starter:3.2.0'
 
     compileOnly 'org.projectlombok:lombok:1.18.34'

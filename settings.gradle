@@ -3,3 +3,8 @@ rootProject.name = 'dream'
 include 'web:api'
 include 'service:api-service'
 include 'infrastructure:my-sql'
+include 'domain'
+include 'api-domain'
+include 'domain:api-domain'
+findProject(':domain:api-domain')?.name = 'api-domain'
+
